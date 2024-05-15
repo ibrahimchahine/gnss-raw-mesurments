@@ -57,10 +57,6 @@ This assignment focuses on the basic principles of Global Navigation Satellite S
      git clone <repo_url>
      cd <repo_directory>
      ```
-   - Install required dependencies:
-     ```bash
-     pip install -r requirements.txt
-     ```
 
 2. **Data Parsing**:
    - Place your GNSS raw measurements log file in the `data/` directory.
