@@ -73,6 +73,7 @@ To change the data change data.txt
 For solotion run:
  ```bash
      python3 solution.py
+    python3 test.py
 ```
 
 Feel free to reach out if you have any questions or need further assistance. Happy coding!
