@@ -2,7 +2,8 @@
 
 ## Overview
 
-This assignment focuses on the basic principles of Global Navigation Satellite System (GNSS). WE implemented a naive positioning algorithm based on the Root Mean Square (RMS) of selected (i.e., weighted) pseudo-ranges.
+This assignment focuses on the basic principles of Global Navigation Satellite System (GNSS). WE implemented a naive positioning algorithm based on the Root Mean Square (RMS) of selected (i.e., weighted) pseudo-ranges. based on [John Mitchell's Website](https://www.johnsonmitchelld.com/)
+
 
 ## Objectives
 
