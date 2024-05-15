@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assignment focuses on the basic principles of Global Navigation Satellite System (GNSS). You will implement a naive positioning algorithm based on the Root Mean Square (RMS) of selected (i.e., weighted) pseudo-ranges.
+This assignment focuses on the basic principles of Global Navigation Satellite System (GNSS). WE implemented a naive positioning algorithm based on the Root Mean Square (RMS) of selected (i.e., weighted) pseudo-ranges.
 
 ## Objectives
 
@@ -38,7 +38,7 @@ This assignment focuses on the basic principles of Global Navigation Satellite S
 
 5. **Integration and Output**:
    - Integrate the parsing, positioning algorithm, and coordinate conversion into a complete solution.
-   - The solution should:
+   - The solution:
      1. Receive a raw GNSS measurements log file.
      2. Output a KML file with the computed path (including time and animation).
      3. Output a CSV file with the following additional columns:
@@ -48,8 +48,6 @@ This assignment focuses on the basic principles of Global Navigation Satellite S
 
 6. **Testing and Documentation**:
    - Perform testing using the provided dataset and additional data files.
-   - Conclude your work by setting up a GitHub repository.
-   - Include a detailed README with instructions on how to run your solution.
 
 ## How to Run
 
