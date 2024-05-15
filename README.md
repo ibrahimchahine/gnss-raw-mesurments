@@ -49,46 +49,30 @@ This assignment focuses on the basic principles of Global Navigation Satellite S
 6. **Testing and Documentation**:
    - Perform testing using the provided dataset and additional data files.
 
+## Prerequisites
+
+- Python 3.6+
+- numpy
+- pandas
+- pyproj
+
+Install the required packages using:
+```bash
+pip install numpy pandas pyproj
+```
 ## How to Run
 
-1. **Setup**:
+ **Setup**:
    - Clone the repository:
      ```bash
      git clone <repo_url>
      cd <repo_directory>
      ```
-
-2. **Data Parsing**:
-   - Place your GNSS raw measurements log file in the `data/` directory.
-   - Run the parser script to generate the CSV file:
-     ```bash
-     python parse_log.py --input data/log_file.txt --output data/parsed_data.csv
-     ```
-
-3. **Positioning Algorithm**:
-   - Run the positioning algorithm on the parsed CSV file:
-     ```bash
-     python compute_position.py --input data/parsed_data.csv --output data/positioned_data.csv
-     ```
-
-4. **Coordinate Conversion**:
-   - Convert ECEF coordinates to latitude, longitude, and altitude:
-     ```bash
-     python convert_coordinates.py --input data/positioned_data.csv --output data/final_data.csv
-     ```
-
-5. **Generate Output Files**:
-   - Generate the KML file and final CSV file:
-     ```bash
-     python generate_output.py --input data/final_data.csv --kml_output output/path.kml --csv_output output/final_positions.csv
-     ```
-
-6. **Testing**:
-   - Run the test scripts to validate your implementation:
-     ```bash
-     python test_all.py
-     ```
----
+To change the data change data.txt
+For solotion run:
+ ```bash
+     python3 solution.py
+```
 
 Feel free to reach out if you have any questions or need further assistance. Happy coding!
 
